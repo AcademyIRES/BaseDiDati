@@ -24,8 +24,18 @@ BEGIN
 END
 
 
+
 -- Fare delle prove
-INSERT INTO Volo VALUES ('AZ285','Venerdì', 'Venezia', '20:30:00', 'Roma', '22:30', 'Airbus_820')
+SELECT * FROM Aereo
+DELETE FROM Aereo WHERE TipoAereo = 'Boing_750'
+BEGIN TRAN
+INSERT INTO Aereo VALUES('Boing_750', 150, 0);
+INSERT INTO Volo VALUES ('AZ286','Venerdì', 'Bologna', '20:30:00', 'Roma', '22:30', 'Boing_750')
+IF @@ERROR = 0 COMMIT TRAN ELSE ROLLBACK TRAN
+
+
+
+
 UPDATE Volo SET TipoAereo = 'Airbus_820' WHERE IdVolo = 'AZ284'
 DELETE FROM Volo WHERE IdVolo = 'AZ284'
 
