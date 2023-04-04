@@ -1,0 +1,210 @@
+db.Volo.insertMany([
+{
+  "_id": "AZ275",
+  "GiornoSett":"venerdì",
+  "AeroportoPart": {
+    "Città":"Venezia",
+    "Nazione":"Italia",
+    "NumPiste":15},
+  "OraPart":"10:00",
+  "AeroportoArr": {
+    "Città":"Parigi",
+    "Nazione":"Francia",
+    "NumPiste":20 },
+  "OraArr": "12:00",
+  "Aereo": {
+  "TipoAereo":"Boing_747",
+  "NumPasseggeri":0,
+  "QtaMerci":500}
+ },
+ {
+  "_id":"AZ276",
+  "GiornoSett":"Giovedì",
+  "AeroportoPart":{
+    "Città":"Roma",
+    "Nazione":"Italia",
+    "NumPiste":20},
+  "OraPart":"12:30",
+  "AeroportoArr":{
+    "Città":"Milano",
+    "Nazione":"Italia",
+    "NumPiste":20},
+  "OraArr":"13:50",
+  "Aereo":{
+    "TipoAereo":"Boing_812",
+    "NumPasseggeri":200,
+    "QtaMerci":300}
+},
+{
+  "_id": "AZ277",
+  "GiornoSett":"Martedì",
+  "AeroportoPart":{
+    "Città":"Djerba",
+    "Nazione":"Tunisia",
+    "NumPiste":5
+  },
+  "OraPart":"15:30",
+  "AeroportoArr":{
+    "Città":"Tolosa",
+    "Nazione":"Francia",
+    "NumPiste":10
+  },
+  "OraArr":"17:15",
+  "Aereo":{
+    "TipoAereo":"Airbus_820",
+    "NumPasseggeri":380,
+    "QtaMerci":0
+  }
+},
+{
+  "_id": "AZ278",
+  "GiornoSett":"Sabato",
+  "AeroportoPart":{
+    "Città":"Bologna",
+    "Nazione":"Italia",
+    "NumPiste":10
+  },
+  "OraPart":"08:30",
+  "AeroportoArr":{
+    "Città":"Milano",
+    "Nazione":"Italia",
+    "NumPiste":10
+  },
+  "OraArr":"09:30",
+  "Aereo":{
+    "TipoAereo":"Boing_812",
+    "NumPasseggeri":200,
+    "QtaMerci":300
+  }
+},
+{
+  "_id":"AZ279",
+  "GiornoSett":"Mercoledì",
+  "AeroportoPart": {
+    "Città" : "Tunisi",
+    "Nazione": "Tunisia",
+    "NumPiste": 10
+  },
+  "OraPart":"17:30",
+  "AeroportoArr": {
+    "Città" : "Venezia",
+    "Nazione": "Italia",
+    "NumPiste": 15
+  },
+  "OraArr":"18:50",
+  "Aereo":{
+    "TipoAereo":"Airbus_820",
+    "NumPasseggeri": 380,
+    "QtaMerci":0
+  }
+},{
+  "_id" : "AZ280",
+  "GiornoSett" : "Lunedì",
+  "AeroportoPart" : 
+  {
+    "Città" : "Bologna",
+    "Nazione" : "Italia",
+    "NumPiste" : 10
+  },
+  "OraPart": "10:30",
+  "AeroportoArr" : 
+  {
+    "Città" : "Venezia",
+    "Nazione" : "Italia",
+    "NumPiste" : 15
+  },
+  
+  "OraArr" :  "11:30",
+  "Aereo" : 
+  {
+    "TipoAereo" : "Airbus_820",
+    "NumPasseggeri" : 380,
+    "QtaMerci" : 0
+  }
+},
+{
+  "_id": "AZ281",
+  "GiornoSett": "Sabato",
+  "AeroportoPart":{
+    "Città":"Bologna",
+    "Nazione":"Italia",
+    "NumPiste":10
+  },
+  "OraPart":"20:30",
+  "AeroportoArr":{
+    "Città":"Roma",
+    "Nazione":"Italia",
+    "NumPiste":20
+  },
+  "OraArr":"22:30",
+  "Aereo":{
+    "TipoAereo":"Airbus_820",
+    "NumPasseggeri":380,
+    "QtaMerci":0
+  }
+  
+},
+{
+  "_id": "AZ282",
+  "GiornoSett": "Martedì",
+  "AeroportoPart": {
+    "Città": "Venezia",
+    "Nazione": "Italia",
+    "NumPiste": 15
+  },
+  "OraPart": "20:30:00",
+  "AeroportoArr": {
+    "Città": "Roma",
+    "Nazione": "Italia",
+    "NumPiste": 20
+  },
+  "OraArr": "21:30",
+  "Aereo": {
+    "TipoAereo": "Boing_812",
+    "NumPasseggeri": 200,
+    "QtaMerci": 300
+  }
+},
+{ 
+    "_id" : "AZ283", 
+    "GiornoSett" : "Venerdì", 
+    "AeroportoPart" : {
+        "Città" : "Bologna", 
+        "Nazione" : "Italia", 
+        "NumPiste" : 10.0
+    }, 
+    "OraPart" : "20:30:00", 
+    "AeroportoArr" : {
+        "Città" : "Roma", 
+        "Nazione" : "Italia", 
+        "NumPiste" : 10.0
+    }, 
+    "OraArr" : "22:30", 
+    "Aereo" : {
+        "TipoAereo" : "Airbus_820", 
+        "NumPasseggeri" : 380.0, 
+        "QtaMerci" : 0.0
+    }
+},
+{
+  "_id": "AZ284",
+  "GiornoSett" : " Martedì",
+  "AeroportoPart" : {
+    "Città": "Bologna",
+    "Nazione": "Italia",
+    "NumPiste": 10
+  },
+  "OraPart": "12:30",
+   "AeroportoArr" : {
+    "Città": "Djerba",
+    "Nazione": "Tunisia",
+    "NumPiste": 10
+  },
+  "OraArr": "13:50",
+  "Aereo" : {
+    "TipoAereo": "Airbus_820",
+    "NumPasseggeri": 380,
+    "NumMerci": 0
+  }
+}
+])
